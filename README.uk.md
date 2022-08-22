@@ -14,8 +14,6 @@
 4. Создай новый пустой репозиторий на GitHub.
 5. Открой проект в VSCode, запусти терминал и свяжи проект с GitHub-репозиторием
    [по инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
-   //git remote set-url origin https://github.com/zhman1981/goit-js-hw-08.git -
-   зв'язує
 6. Установи зависимости проекта в терминале командой `npm install` .
 7. Запусти режим разработки, выполнив команду `npm start`.
 8. Перейди в браузере по адресу [http://localhost:1234](http://localhost:1234).
