@@ -64,4 +64,62 @@
   font-family: FontAwesome;
   font-size: 16px;
   color: #F9F0DA;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.footer button {
+  width: 142px;
+  height: 42px;
+  border: none;
+  background: #7BA7AB;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer button:before {
+  content: "More photos...";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery.photo-card {
+  flex-basis: calc((100% - 40px) / 3);
+}
+
+.photo-card {
+  height: 300px;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.photo-card > img {
+  height: 80%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+.info-item {
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */

@@ -3,6 +3,7 @@
     width: 300px;
     margin: 0 auto;
 }
+
 .header {
     background: #A3D0C3;
     padding: 30px 0;
@@ -33,6 +34,28 @@
 
 .header button:before {
     content: "Search";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.footer button {
+    width: 142px;
+    height: 42px;
+    border: none;
+    background: #7BA7AB;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer button:before {
+    content: "More photos...";
     font-family: FontAwesome;
     font-size: 16px;
     color: #F9F0DA;

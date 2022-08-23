@@ -1,0 +1,35 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery.photo-card {
+    flex-basis: calc((100% - 40px) / 3);
+}
+
+.photo-card {
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.photo-card>img {
+    
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+.info-item {
+    text-align: center;
+}
