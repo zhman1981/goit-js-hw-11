@@ -13,9 +13,10 @@
     height: 300px;
     width: 300px;
     margin-top: 10px;
+    border: 1px dashed grey;
 }
 
-.photo-card>img {
+.photo-card>a>img {
     
     height: 80%;
     width: 100%;
@@ -32,4 +33,8 @@
 
 .info-item {
     text-align: center;
+}
+
+.is-hidden {
+    display: none;
 }
